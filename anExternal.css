@@ -1,0 +1,39 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: white;
+}
+p1 {
+    color: grey; font-style: italic
+}
+p2 {
+    color: yellow; font-style: normal;
+}
+/img id="rcorners1"/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/She is my favorite/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rcorners1 {
+    border-radius: 15px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 250px;
+    height: 300px; 
+}
+img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
